@@ -90,6 +90,7 @@ nav a:hover {
 .banner img {
   width: 200px;
 }
+
 /* PARTIE A PROPOS */
 .apropos {
   padding: 100px 100px;
@@ -109,7 +110,7 @@ nav a:hover {
   margin-bottom: 20px;
 }
 .apropos img {
-  width: 300px;
+  width: 350px;
 }
 .apropos a {
   display: inline-block;
@@ -199,12 +200,19 @@ nav a:hover {
 .competence {
   padding: 10px;
   text-align: center;
-  width: 20%;
+  width: 30%;
   margin: 0;
   background-color: #e6edf3;
   color: #0d1117;
   border-radius: 10px;
   margin-top: 20px;
+}
+.competence:hover{
+  box-shadow: 0 4px 8px rgba(31, 111, 235, 0.2);
+  transition: 0.3s;
+  cursor: pointer;
+  transform: scale(1.05);
+
 }
 .competence .progress-text {
   display: flex;
@@ -253,7 +261,7 @@ nav a:hover {
   border-radius: 10px;
   padding: 20px;
 }
-.contact >p{
+.contact > p {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -264,7 +272,7 @@ nav a:hover {
   width: 30px;
   align-items: center;
 }
-.contact a{
+.contact a {
   text-decoration: none;
   color: #0d1117;
 }
@@ -318,4 +326,24 @@ footer p {
 }
 footer b {
   color: #1f6feb;
+}
+/* btn top */
+#btnTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 12px 15px;
+  font-size: 22px;
+  border: none;
+  border-radius: 50%;
+  background-color: #1f6feb;
+  color: white;
+  cursor: pointer;
+  display: none; /* Caché au départ */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+
+#btnTop:hover {
+  background-color: #103b7b;
 }

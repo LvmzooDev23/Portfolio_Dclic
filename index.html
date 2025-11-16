@@ -19,10 +19,10 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Accueil</a></li>
-                    <li><a href="contact.html">A Propos</a></li>
-                    <li><a href="contact.html">Projets</a></li>
-                    <li><a href="contact.html">Compétences</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#apropos">A Propos</a></li>
+                    <li><a href="#projets">Projets</a></li>
+                    <li><a href="#competences">Compétences</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -31,54 +31,66 @@
     <div class="banner">
         <div class="banner-text">
             <h1>Amadou Lamine NDIAYE</h1>
-            <p>Je suis un developpeur web</p>
+            <p>Je suis un développeur web</p>
+            <p>Passionné par la technologie et le digital</p>
+            <p>Intégrateur Web - Formateur Technologie web</p>
+            <a href="#contact">ME CONTACTER</a>
+            <a href="#apropos">A PROPOS DE MOI</a>
         </div>
         <div class="banner-image">
-            <img src="assets/Coder Coding.gif" alt="Image de profil">
+            <dotlottie-wc src="https://lottie.host/f03ad0a1-4da8-451a-b6db-8fe7a961c28d/ytvV1GpgZ0.lottie"
+                style="width: 400px;height: 400px" autoplay loop></dotlottie-wc>
         </div>
     </div>
-    <div class="apropos">
+    <div class="apropos" id="apropos">
         <div class="apropos-text">
             <h2>A Propos</h2>
-            <p>Je suis un développeur web, je suis passionné par le développement web et je suis à l'aise avec les
-                technologies web. Je suis également passionné par les nouvelles technologies et je suis toujours à la
+            <p>Informaticien de formation, je suis passionné par le développement web et très à l'aise avec les
+                technologies web. Je suis également passionné par l'intelligence artificielle et je suis toujours à la
                 recherche de nouvelles technologies pour améliorer mes compétences.</p>
-            <p>J'aime travailler sur des projets qui ont un impact sur le monde entier et je suis toujours à la
-                recherche de nouvelles opportunités pour améliorer mes compétences.</p>
-            <p>J'ai une expérience de plus de 3 ans dans le développement web et je suis à l'aise avec les technologies
-                web. J'ai travaillé sur des projets complexes et je suis toujours à la recherche de nouvelles
-                opportunités pour améliorer mes compétences.</p>
-            <a href="#" class="btn">Télécharger CV</a>
+            <p>
+                Déterminé et passionné des nouvelles technologies , de l'univers
+                du web et doté d'une grande curiosité., je suis spécialisé dans le
+                développement web fullstack (frontend et back-end).
+                De même je suis capable de faire de l'intégration web ou encore
+                de la formation professionnelle.
+
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1l0OZnbTQKDjvQ20CluC8G5WlAV-o3PZt/view?usp=sharing"
+                class="btn">Télécharger CV</a>
         </div>
         <div class="apropos-img">
-            <img src="assets/Programming Computer.gif" alt="Image A Propos">
+            <img src="assets/aland2-removebg-preview.png" alt="Image A Propos">
         </div>
     </div>
-    <div class="mesProjets">
+    <div class="mesProjets" id="projets">
         <h2>Mes Projets</h2>
         <div class="projets">
             <div class="projet">
-                <img src="assets/Portfolio.png" alt="Projet 1">
-                <h3>Projet 1</h3>
-                <p>Description du projet 1</p>
-                <a type="button" href="">VOIR PROJET=></a>
+                <h3>Calculateur de prêt hypothécaire</h3>
+                <p>Ce projet vous permet de saisir le montant du prêt, le taux
+                    d'intérêt annuel et la durée en années
+                    Il calcule le paiement mensuel du prêt hypothécaire
+                </p>
+                <a type="button" href="calculateur.html">VOIR PROJET</a>
             </div>
             <div class="projet">
-                <img src="assets/Portfolio.png" alt="Projet 2">
-                <h3>Projet 2</h3>
-                <p>Description du projet 2</p>
-                <a type="button" href="">VOIR PROJET=></a>
+                <h3>Horloge en temps réel</h3>
+                <p>Cet app actualise l'heure système chaque une seconde et l'affiche
+                    dans la zone de saisie.</p>
+                <a type="button" href="tempsReel.html">VOIR PROJET</a>
             </div>
             <div class="projet">
-                <img src="assets/Portfolio.png" alt="Projet 3">
-                <h3>Projet 3</h3>
-                <p>Description du projet 3</p>
-                <a type="button" href="">VOIR PROJET=></a>
+                <h3>MANIPULATIONS DATE</h3>
+                <p>Ce projet permet de saisir une date et de calculer la différence en jours entre la date actuelle et
+                    la
+                    date saisie, puis affiche le résultat</p>
+                <a type="button" href="manipDate.html">VOIR PROJET</a>
             </div>
         </div>
     </div>
     <section>
-        <h2 class="competences-title">Mes Compétences</h2>
+        <h2 class="competences-title" id="competences">Mes Compétences</h2>
         <div class="mesCompetences" id="mesCompetences">
             <div class="competence">
                 <div class="progress-text">
@@ -91,44 +103,44 @@
             </div>
             <div class="competence">
                 <div class="progress-text">
-                    <p>HTML & CSS</p>
-                    <p> 95%</p>
+                    <p>JAVASCRIPT</p>
+                    <p> 80%</p>
                 </div>
                 <div class="progress-bar">
-                    <div class="progress" style="width: 50%;"></div>
+                    <div class="progress" style="width: 80%;"></div>
                 </div>
             </div>
             <div class="competence">
                 <div class="progress-text">
-                    <p>HTML & CSS</p>
-                    <p> 95%</p>
+                    <p>PHP & MYSQL</p>
+                    <p> 85%</p>
                 </div>
                 <div class="progress-bar">
-                    <div class="progress" style="width: 95%;"></div>
+                    <div class="progress" style="width: 85%;"></div>
                 </div>
             </div>
             <div class="competence">
                 <div class="progress-text">
-                    <p>HTML & CSS</p>
-                    <p> 95%</p>
+                    <p>WordPress</p>
+                    <p> 90%</p>
                 </div>
                 <div class="progress-bar">
-                    <div class="progress" style="width: 95%;"></div>
+                    <div class="progress" style="width: 90%;"></div>
                 </div>
             </div>
             <div class="competence">
                 <div class="progress-text">
-                    <p>HTML & CSS</p>
-                    <p> 95%</p>
+                    <p>Canva & Figma</p>
+                    <p> 80%</p>
                 </div>
                 <div class="progress-bar">
-                    <div class="progress" style="width: 95%;"></div>
+                    <div class="progress" style="width: 80%;"></div>
                 </div>
             </div>
         </div>
     </section>
     <!-- Partie Contact -->
-    <div class="contacts">
+    <div class="contacts" id="contact">
         <div class="contact">
             <h2>Mes Informations</h2>
             <p><span><img src="assets/icones/localisateur.png" alt=""></span> Dakar, Senegal</p>
@@ -155,8 +167,11 @@
     <!-- Partie Footer -->
     <footer>
         <p>Designed by <b>Amadou Lamine NDIAYE</b> with HTML & CSS & JavaScript</p>
-        <p>&copy; 2023 Portfolio. Tous droits reservés - 2025.</p>
+        <p>&copy; 2025 Portfolio. Tous droits reservés - 2025.</p>
     </footer>
+    <button id="btnTop">↑</button>
+    <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.5/dist/dotlottie-wc.js" type="module"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
